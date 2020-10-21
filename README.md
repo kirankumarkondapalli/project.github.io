@@ -162,6 +162,7 @@ footer hr{
         flex-basis: 100%;
     } 
 }
+</style>
 </head>
 <body>
     <div class="header">
