@@ -154,12 +154,13 @@ footer hr{
 .copyright{
     text-align: center;
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
     .row{
         text-align: center;
     }
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
+        width:100%;
     } 
 }   
 </style>
