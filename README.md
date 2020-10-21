@@ -161,22 +161,7 @@ footer hr{
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
     } 
-}
-@media only screen and (max-width:600px){
-        nav ul{
-        position:absolute;
-        top:70px;
-        left:0;
-        background: #333;
-        width:100%;
-        overflow: hidden;
-        }
-        nav ul li{
-        display:block;
-        margin-right:50px;
-        margin-top:10px;
-        margin-bottom:10px;
-        }    
+}   
 </style>
 </head>
 <body>
