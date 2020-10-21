@@ -180,8 +180,7 @@ footer hr{
         </div>
         <div class="row">   
             <div class="col-2"><h1>Metro Shoes</h1> <br>
-            <p>Success isn't always about greatness. It's about Consistency.<br> Conistent hard work gains success.   </p>
-            <a href="" class="btn">Buy Now &#8594;</a>
+            <p>Success isn't always about greatness. It's about Consistency.<br> Conistent hard work gains success.</p>
             </div>
             <div class="col-2">
                 <img src="shoe_2-removebg-preview.png"  >
