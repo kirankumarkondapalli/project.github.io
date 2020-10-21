@@ -86,6 +86,7 @@ p{
 }
 .col-3 img{
     width:100%;
+    background: radial-gradient(#fff, #ffd6d6) ;
 }
 .small-container{
     max-width:1080px;
