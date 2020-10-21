@@ -58,7 +58,8 @@ p{
 }
 .col-2 img{
     max-width:100%;
-    padding:0px 0;
+    padding:0px 0;  
+    background: radial-gradient(#fff, #fd3) ;
 }
 .col-2 h1{
     font-size: 40px;
