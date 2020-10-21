@@ -154,7 +154,7 @@ footer hr{
 .copyright{
     text-align: center;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
     .row{
         text-align: center;
     }
