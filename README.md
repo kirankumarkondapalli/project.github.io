@@ -73,9 +73,6 @@ p{
 .btn:hover{
     background: #563434;
 }
-.header{
-    background: radial-gradient(#fff, #ffd6d6) ;
-}
 .categories{
     margin:70px 0;
 }
