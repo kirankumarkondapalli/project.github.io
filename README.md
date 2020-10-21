@@ -159,9 +159,9 @@ footer hr{
         text-align: center;
     }
     .col-2, .col-3, .col-4{
-        flex-basis: 100%;}
-        }
-    </style>
+        flex-basis: 100%;
+    } 
+}
 </head>
 <body>
     <div class="header">
