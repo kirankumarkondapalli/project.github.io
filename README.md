@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,7 +58,6 @@ p{
 .col-2 img{
     max-width:100%;
     padding:0px 0;  
-    background: radial-gradient(#fff, #fd3) ;
 }
 .col-2 h1{
     font-size: 40px;
@@ -76,7 +74,7 @@ p{
     background: #563434;
 }
 .header{
-    background: radial-gradient(#fff, #fd3) ;
+    background: radial-gradient(#fff, #ffd6d6) ;
 }
 .categories{
     margin:70px 0;
