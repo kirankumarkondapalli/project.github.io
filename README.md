@@ -130,9 +130,17 @@ h4{
 }
 .footer h3{
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
+    margin-left: 20px   ;
 }
-.footer-col-1, .footer-col-2{
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align:center;
+}
+.footer-col-1, .footer-col-3, .footer-col-4{
     min-width : 250px;
     margin-bottom:20px;
 }
@@ -142,6 +150,9 @@ h4{
 .app-logo{
     margin-top: 20px;
 }
+ul{
+    list-style-type: none;
+}
 .app-logo img{
     width: 140px;
 }
@@ -149,20 +160,47 @@ footer hr{
     border: none;
     background: #b5b5b5;
     height:2px;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 .copyright{
-    text-align: center;
+    text-align: center;   
 }
-@media only screen and (max-width:768px){
+.menu-icon{
+width:28px;
+display:none;   
+}
+@media only screen and (max-width:800px){
+    nav ul{
+        position:absolute;
+        top: 70px; 
+        left:0;
+        background: #333;
+        width:100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;  
+    } 
+    nav ul li a{
+        color:#fff; 
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width:600px){
     .row{
         text-align: center;
     }
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
-        width:100%;
-    } 
-}   
+    }   
+}  
 </style>
 </head>
 <body>
@@ -178,6 +216,7 @@ footer hr{
                     <li><a href="">Account   </a></li>
                 </ul>
             </nav>
+             <img src="images/rsz_menuresize-removebg-preview.png" class="menu-icon" onclick="menutoggle()">
         </div>
         <div class="row">   
             <div class="col-2"><h1>Metro Shoes</h1> <br>
@@ -364,7 +403,7 @@ footer hr{
                    <a href=""> <img src="rsz_s18.jpg"></a>
                 </div>
             </div>
-            <div class="footer-col-2">
+            <div class="footer-col-3">
                 <h3>Useful Links</h3>
                 <ul>
                     <a href="">
@@ -375,7 +414,7 @@ footer hr{
                     </a>
                 </ul>
     </div>
-    <div class="footer-col-2">
+    <div class="footer-col-4">
         <h3>Follow Us On</h3>
         <ul>
             <a href="#">
@@ -392,5 +431,18 @@ footer hr{
     </div>
 </div>
 </div>
+<script>
+    var menuitems = document.getElementById("menuitems");
+menuitems.style.maxHeight = "0px";
+function menutoggle(){
+    if(menuitems.style.maxHeight == "0px")
+    {
+        menuitems.style.maxHeight = "200px";
+    }
+    else{
+        menuitems.style.maxHeight ="0px";
+    }
+}
+</Script>
 </body>
 </html>
