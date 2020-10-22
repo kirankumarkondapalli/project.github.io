@@ -167,7 +167,7 @@ display:none;
   ul{
         list-style-type: none;
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:480px){
     nav ul{
         position:absolute;
         top: 70px; 
