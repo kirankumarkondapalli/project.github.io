@@ -52,6 +52,9 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.header .row{
+    margin-top: 70px;
+}
 .col-2{
     flex-basis:50%;
     min-width:300px;
@@ -219,7 +222,7 @@ display:none;
                     <li><a href="">Account   </a></li>
                 </ul>
             </nav>
-             <img src="images/rsz_menuresize-removebg-preview.png" class="menu-icon" onclick="menutoggle()">
+             <img src="rsz_menuresize-removebg-preview.png" class="menu-icon" onclick="menutoggle()">
         </div>
         <div class="row">   
             <div class="col-2"><h1>Metro Shoes</h1> <br>
