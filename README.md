@@ -70,15 +70,6 @@ p{
     line-height: 0px;
     margin: 10px 0px;   
 }   
-.btn{
-    background:#ff523b;
-    color: #fff;
-    padding:8px 30px;
-    border-radius: 30px;
-}
-.btn:hover{
-    background: #563434;
-}
 .categories{
     margin:70px 0;
 }
@@ -123,7 +114,6 @@ h4{
 .rating .fa{
     color:#ff523b
 }
-/*-----------------------footer-------------------------*/
 .footer{
     background: black; 
     color: #8a8a8a;
@@ -230,13 +220,9 @@ display:none;
             <div class="col-2"><h1>Metro Shoes</h1> <br>
             <p>Success isn't always about greatness. It's about Consistency.<br> Conistent hard work gains success.</p>
             </div>
-            <div class="col-2">
-                <img src="shoe_2-removebg-preview.png"  >
-            </div>
         </div>
     </div>
 </div>
-<!-----------------------------------------categories------------------------------------------------------------>
 <div class="categories">
     <div class="small-container">
         <div class="row">
@@ -244,9 +230,8 @@ display:none;
             <div class="col-3"><img src="unsplash2.jpg"></div>
             <div class="col-3"><img src="unsplash4.jpg"></div>
         </div>
-    </div>
-    <!------------------------------products---------------------------------------------------------------------->
-    <div class="small-container">
+</div>
+<div class="small-container">
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
@@ -400,7 +385,6 @@ display:none;
         </div>
 </div>
 </div>
-<!-------------------------------------footer-------------------------->
 <div class="footer">
     <div class="container">
         <div class="row">
