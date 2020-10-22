@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
     *{
+        margin:0;
     box-sizing: border-box;
+        padding:0;
 }
 body{
     font-family: 'Poppins', sans-serif;
 }
 .navbar{
     display: flex;
-    padding:10px;
+    padding:20px;
+    align-item:center;
 }
 nav{
-    flex :   auto      ;
+    flex : 1;
     text-align: right;
-    font-size: 20px;
 }
 nav ul{
     display: inline-block;
@@ -61,7 +63,7 @@ p{
 }
 .col-2 img{
     max-width:100%;
-    padding:0px 0;  
+    padding:50px 0;  
 }
 .col-2 h1{
     font-size: 40px;
