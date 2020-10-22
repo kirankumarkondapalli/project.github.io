@@ -21,7 +21,7 @@ body{
 }
 nav{
     flex : 1;
-    text-align: right;
+    text-align: left;
 }
 nav ul{
     display: inline-block;
@@ -150,12 +150,6 @@ ul{
 }
 .app-logo img{
     width: 140px;
-}
-footer hr{
-    border: none;
-    background: #b5b5b5;
-    height:2px;
-    margin: 20px 0;
 }
 .copyright{
     text-align: center;   
@@ -386,7 +380,7 @@ display:none;
 </div>
 </div>
 <div class="footer">
-    <div class="container">
+<div class="container">
         <div class="row">
             <div class="footer-col-1">
                 <h3>Download our App</h3>
@@ -394,8 +388,8 @@ display:none;
                 <div class="applogo">
                    <a href=""> <img src="rsz_s18.jpg"></a>
                 </div>
-            </div>
-            <div class="footer-col-3">
+</div>
+<div class="footer-col-3">
                 <h3>Useful Links</h3>
                 <ul>
                     <a href="">
@@ -405,8 +399,8 @@ display:none;
                      <li>Join Affiliate</li>
                     </a>
                 </ul>
-    </div>
-    <div class="footer-col-4">
+</div>
+<div class="footer-col-4">
         <h3>Follow Us On</h3>
         <ul>
             <a href="#">
