@@ -12,7 +12,6 @@
 }
 .navbar{
     display: flex;
-  
     padding:10px;
 }
 nav{
