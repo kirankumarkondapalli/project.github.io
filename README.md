@@ -169,6 +169,9 @@ footer hr{
 width:28px;
 display:none;   
 }
+  ul{
+        list-style-type: none;
+}
 @media only screen and (max-width:800px){
     nav ul{
         position:absolute;
