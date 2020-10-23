@@ -38,7 +38,7 @@ p{
     margin-bottom: 20px;
 }
 .container{
-    max-width: 1000px;
+    max-width: 1080px;
     margin:auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -122,7 +122,8 @@ h4{
     background: black; 
     color: #8a8a8a;
     font-size: 14px;
-    padding:60px 0 20px;    
+    padding:60px 0 20px; 
+    max-width:1080px;
 }
 .footer p{
     color: #8a8a8a;
