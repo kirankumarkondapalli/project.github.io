@@ -72,9 +72,6 @@ p{
 .btn:hover{
     background: #563434;
 }
-.header{
-    background: radial-gradient(#fff, #fd3) ;
-}
 .header .row{
     margin-top: 70px;
 }
