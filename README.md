@@ -123,7 +123,6 @@ h4{
     color: #8a8a8a;
     font-size: 14px;
     padding:60px 0 20px; 
-    max-width:1080px;
 }
 .footer p{
     color: #8a8a8a;
